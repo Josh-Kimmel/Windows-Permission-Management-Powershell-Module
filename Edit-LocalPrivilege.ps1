@@ -50,7 +50,7 @@
     Date: August 2025
 
 .LINK
-    https://github.com/
+    https://github.com/Josh-Kimmel/Windows-Permission-Management-Powershell-Module/blob/main/Edit-LocalPrivilege.ps1
 #>
 
 [CmdletBinding()]
@@ -375,5 +375,6 @@ else
 {
     Start-PrivilegeEdit -SidArray $sidArray -PrivilegeArray $privilegeArray
 }
+
 
 
