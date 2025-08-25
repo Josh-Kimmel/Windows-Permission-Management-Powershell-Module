@@ -38,7 +38,7 @@
     Date: July 2025
 
 .LINK
-    https://github.com/
+    https://github.com/Josh-Kimmel/Windows-Permission-Management-Powershell-Module/blob/main/Get-LocalPrivilegeAudit.ps1
     
 #>
 
@@ -322,5 +322,6 @@ else
 {
     Write-Output $table
 }
+
 
 
