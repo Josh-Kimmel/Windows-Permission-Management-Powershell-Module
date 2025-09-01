@@ -2,7 +2,7 @@
 
 ***
 ## Table of Contents
-[Windows Permission Management PowerShell Tool](#windows-permission-management-powershell-tool)
+[Windows Permission Management PowerShell Tool](#windows-permission-management-powershell-tools)
 1. [About the Project](#about-the-project)
 	- [Invoke-PrivilegeAudit](#invoke-privilegeaudit)
 	- [Edit-GPO](#edit-gpo)
@@ -12,7 +12,7 @@
 3. [License](#license)
 
 
-[Back to Top](#windows-permission-management-powershell-tool)
+[Back to Top](#windows-permission-management-powershell-tools)
 ***
 
 ## About the Project
@@ -20,7 +20,7 @@
 This project contains several scripts to audit and modify user rights assignment security policy settings on Windows systems and domains. A detailed list of these rights and what they do can be found [here](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/user-rights-assignment). 
 
 
-[Back to Top](#windows-permission-management-powershell-tool)
+[Back to Top](#windows-permission-management-powershell-tools)
 ***
 
 ## Usage
@@ -74,14 +74,14 @@ Grants privileges to users and groups on the local system by editing its user ri
 Must be run as Administrator or other user or group with access to the secedit command line utility. 
 
 
-[Back to Top](#windows-permission-management-powershell-tool)
+[Back to Top](#windows-permission-management-powershell-tools)
 ***
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-[Back to Top](#windows-permission-management-powershell-tool)
+[Back to Top](#windows-permission-management-powershell-tools)
 ***
 
 
