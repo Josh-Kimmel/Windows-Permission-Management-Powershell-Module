@@ -4,7 +4,7 @@
 ## Table of Contents
 [Windows Permission Management PowerShell Tool](#windows-permission-management-powershell-tools)
 1. [About the Project](#about-the-project)
-	- [Invoke-PrivilegeAudit](#invoke-privilegeaudit)
+	- [Get-PrivilegeAudit](#get-privilegeaudit)
 	- [Edit-GPO](#edit-gpo)
 	- [Get-LocalPrivilegeAudit](#get-localprivilegeaudit)
 	- [Edit-LocalPrivilege](#edit-localprivilege)
@@ -36,11 +36,11 @@ git clone https://github.com/Josh-Kimmel/Windows-Permission-Management-Powershel
 
 For detailed information on each script, view their help page with the `Get-Help` PowerShell command.
 
-#### Invoke-PrivilegeAudit
+#### Get-PrivilegeAudit
 
-`Invoke-PrivilegeAudit.ps1`
+`Get-PrivilegeAudit.ps1`
 
-Performs an audit of one or more Group Policy Objects' user rights assignment security policy settings. Also contains utilities for backing up and restoring Group Policy Objects with more usability than the default PowerShell tools.  Can optionally output its results to a file. 
+Performs an audit of one or more Group Policy Objects' user rights assignment security policy settings. Returns a table of all privileges granted to all users and groups on the computer. Can output its results to a CSV file.  
 
 Must be run on a domain-joined system with the Group Policy PowerShell module installed.
 
