@@ -2,7 +2,7 @@
 
 ***
 ## Table of Contents
-[Windows Permission Management PowerShell Tool](#windows-permission-management-powershell-tools)
+[Windows Permission Management PowerShell Tools](#windows-permission-management-powershell-tools)
 1. [About the Project](#about-the-project)
 	- [Get-PrivilegeAudit](#get-privilegeaudit)
 	- [Edit-GPO](#edit-gpo)
