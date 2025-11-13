@@ -4,11 +4,11 @@
 ## Table of Contents
 [Windows Permission Management PowerShell Tools](#windows-permission-management-powershell-tools)
 1. [About the Project](#about-the-project)
+2. [Usage](#usage)
 	- [Get-PrivilegeAudit](#get-privilegeaudit)
 	- [Add-GPOPrivilege](#add-gpoprivilege)
 	- [Get-LocalPrivilegeAudit](#get-localprivilegeaudit)
 	- [Add-LocalPrivilege](#add-localprivilege)
-2. [Usage](#usage)
 3. [License](#license)
 
 
