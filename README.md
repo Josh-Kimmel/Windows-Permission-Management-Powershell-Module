@@ -5,9 +5,9 @@
 [Windows Permission Management PowerShell Tools](#windows-permission-management-powershell-tools)
 1. [About the Project](#about-the-project)
 	- [Get-PrivilegeAudit](#get-privilegeaudit)
-	- [Edit-GPO](#edit-gpo)
+	- [Add-GPOPrivilege](#add-gpoprivilege)
 	- [Get-LocalPrivilegeAudit](#get-localprivilegeaudit)
-	- [Edit-LocalPrivilege](#edit-localprivilege)
+	- [Add-LocalPrivilege](#add-localprivilege)
 2. [Usage](#usage)
 3. [License](#license)
 
@@ -44,9 +44,9 @@ Performs an audit of one or more Group Policy Objects' user rights assignment se
 
 Must be run on a domain-joined system with the Group Policy PowerShell module installed.
 
-#### Edit-GPO
+#### Add-GPOPrivilege
 
-`Edit-GPO.ps1`
+`Add-GPOPrivilege.ps1`
 
 Grants privileges to users, groups, and computers on a domain by editing one or more Group Policy Objects' user rights assignment security policy settings. 
 
@@ -67,7 +67,7 @@ secedit /export /cfg secpol.cfg
 
 #### Edit-LocalPrivilege 
 
-`Edit-LocalPrivilege.ps1`
+`Add-LocalPrivilege.ps1`
 
 Grants privileges to users and groups on the local system by editing its user rights assignment security policy settings in its secedit database. 
 
